@@ -65,4 +65,27 @@ make
 sudo make install
 
 ```
+##HOW TO SETUP
+setup up the hardware based on the description given above 
+
+
+1.clone this repo
+```bash
+git clone https://github.com/sankarlmao/VHF-UHF-DMR-SDR-Monitoring-Station.git
+cd VHF-UHF-DMR-SDR-Monitoring-Station 
+```
+2.Install all the software dependies
+```bash
+pip install -r requirements.txt
+```
+
+
+##HOW TO USE
+Find the frequencies you want to scan 
+edit that into the freq in the script
+run the script
+```bash
+python script.py
+```
+OP will be printed in both the console and activity_log
 
